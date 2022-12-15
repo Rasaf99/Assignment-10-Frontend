@@ -6,7 +6,7 @@ export const CourseAPi = createApi({
 
     reducerPath: "CourseAPi",
 
-    baseQuery: fetchBaseQuery({ baseUrl: `${process.env.REACT_APP_BACKEND_HOST/api/v1/course` }),
+    baseQuery: fetchBaseQuery({ baseUrl: `${process.env.REACT_APP_BACKEND_HOST/api/v1/course}`),
 
     tagTypes:['course'],
 
